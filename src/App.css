@@ -1,0 +1,52 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  width: inherit;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 20px;
+  height: auto;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  /* #root {
+    padding: 1rem;
+  } */
+}
