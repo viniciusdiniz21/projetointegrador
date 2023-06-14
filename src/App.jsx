@@ -1,10 +1,24 @@
 import "./App.css";
+import logo from "./assets/logo.jpg";
+import Card from "./components/Card";
+
+const logoContainerStyles = {
+  width: "100%",
+  maxHeight: "200px",
+  backgroundColor: "#fff",
+  margin: "0 auto",
+};
+const logoStyles = {
+  width: "100px",
+};
 
 function App() {
   return (
     <>
       <header>
-        <h1>Meu Blog</h1>
+        <div style={logoContainerStyles}>
+          <img src={logo} style={logoStyles} />
+        </div>
         <nav>
           <ul>
             <li>
@@ -21,21 +35,26 @@ function App() {
       </header>
 
       <main>
-        <article>
-          <h2>Título do Post</h2>
-          <p>Data de Publicação: 13 de junho de 2023</p>
-          <p>Autor: Nome do Autor</p>
-
-          <p>Conteúdo do post...</p>
-        </article>
-
-        <article>
-          <h2>Título do Post</h2>
-          <p>Data de Publicação: 12 de junho de 2023</p>
-          <p>Autor: Nome do Autor</p>
-
-          <p>Conteúdo do post...</p>
-        </article>
+        <Card
+          titulo="Título do Post"
+          data="12 de junho de 2023"
+          descricao="Conteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do postConteúdo do postv..."
+        />
+        <Card
+          titulo="Título do Post"
+          data="12 de junho de 2023"
+          descricao="Conteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do postConteúdo do postv..."
+        />
+        <Card
+          titulo="Título do Post"
+          data="12 de junho de 2023"
+          descricao="Conteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do postConteúdo do postv..."
+        />
+        <Card
+          titulo="Título do Post"
+          data="12 de junho de 2023"
+          descricao="Conteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do post Conteúdo do postConteúdo do postConteúdo do postv..."
+        />
       </main>
 
       <footer>
