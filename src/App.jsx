@@ -80,8 +80,8 @@ function App() {
           <div className="integrantes">
             <Integrantes nome="Paulo Souza" foto={paulo} />
             <Integrantes nome="Guilherme Henrique" foto={guilherme} />
-            <Integrantes nome="Sávio Alessandro" foto={savio1} />
-            <Integrantes nome="Sávio Cardoso" foto={savio2} />
+            <Integrantes nome="Sávio Cardoso" foto={savio1} />
+            <Integrantes nome="Sávio Alessandro" foto={savio2} />
             <Integrantes nome="Mateus Alves" foto={matues} />
             <Integrantes nome="Estevão Augusto" foto={estevao} />
             <Integrantes nome="Vinícius Diniz" foto={vinicius} />
